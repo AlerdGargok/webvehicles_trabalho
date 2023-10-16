@@ -1,0 +1,97 @@
+.titulo {
+    margin-left: 5px;
+    font-family: Cambria;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.foto_carro{
+    max-width: 60%;
+    margin-left: 20%;   
+    margin-right: 20%;
+    border: 3px;
+    border-style: double;
+}
+
+.sec_nvcr {
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e72416;
+    max-width: 100%;
+    text-align: center;
+}
+
+.desc_carro{
+    overflow: break-word;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #000000;
+    max-width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: double;
+}
+
+.desc{
+    margin-left: 5px;
+    font-family: Cambria;
+    font-size: 0.9em;
+    color: #a59f9f;
+}
+
+.preco {
+    margin-left: 5px;
+    font-family: Cambria;
+    font-size: 1.1em;
+    color: #fde403;
+    font-weight: bold;
+}
+
+.marcas{
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #e72416;
+    max-width: 100%;
+    text-align: center;
+}
+
+.divblock1{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.divblock2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_marca {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc_logo{
+    max-width: 100%;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
