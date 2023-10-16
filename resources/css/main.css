@@ -13,7 +13,7 @@
 }
 
 .foto_carro{
-    max-width: 60%;
+    max-width: 80%;
     margin-left: 20%;   
     margin-right: 20%;
     border: 3px;
@@ -36,7 +36,7 @@
     padding: 0px;
     margin-top: 0px;
     background-color: #000000;
-    max-width: 60%;
+    max-width: 80%;
     height: fit-content;
     margin-left: 20%;
     margin-right: 20%;
@@ -69,21 +69,23 @@
     text-align: center;
 }
 
-.divblock1{
+.sec_novos{
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    max-width: 70%;
+    flex-basis: 80%;
 }
 
-.divblock2{
-    width: 30%;
+.sec_marcas{
     display: flex;
+    flex-grow: 2;
     flex-direction: column;
+    flex-basis: 20%;
 }
 
 .logo_marca {
-    max-width: 50%;
+    max-width: 40%;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -91,7 +93,7 @@
 .desc_logo{
     max-width: 100%;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
