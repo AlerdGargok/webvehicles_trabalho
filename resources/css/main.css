@@ -80,7 +80,7 @@
     display: flex;
     flex-grow: 2;
     flex-direction: column;
-    flex-basis: 20%;
+    flex-basis: %;
 }
 
 .logo_marca {
