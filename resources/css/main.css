@@ -41,6 +41,8 @@
     margin-left: 20%;
     margin-right: 20%;
     border-style: double;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .desc{
@@ -58,7 +60,7 @@
     font-weight: bold;
 }
 
-.marcas{
+#marcas{
     margin: 0px;
     padding-bottom: 10px;
     font-family: Cambria;
