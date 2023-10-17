@@ -18,7 +18,7 @@
 .grid_img{
     padding: 0px;
     width: 100%;
-    height: 250px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 0px 2px 5px #000;
     grid-area: "grid_img";
@@ -26,7 +26,7 @@
 
 /*Responsividade utilizando grid*/
 
-@media (max-width:1200px){
+@media (max-width:1400px){
     .container{
         overflow: hidden;
         grid-template-areas: 
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width:900px){
+@media (max-width:980px){
     .container{
         grid-template-areas: 
         "grid_img"
