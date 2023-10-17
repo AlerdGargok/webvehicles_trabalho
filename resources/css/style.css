@@ -70,6 +70,8 @@ footer {
     font-size: 10px;
 }
 
+/*Reponsividade de ajuste do menu*/
+
 @media (max-width:720px){
     ul,li{
         padding: 0px 3px 5px 0px;

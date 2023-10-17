@@ -27,6 +27,8 @@ p, strong, a{
     color: #ddd;
 }
 
+/*Responsividade para evitar overflow*/
+
 @media (max-width:400px){
     
     p, strong, a{

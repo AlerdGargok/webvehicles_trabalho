@@ -41,6 +41,9 @@ h2 {
     text-align: center;
 }
 
+/*Responsividade*/
+/*Criar uma tabela vertical para uma melhor responsividade utilizando um data-label*/
+
 @media (max-width:750px){
     .table thead{       
         display:none
